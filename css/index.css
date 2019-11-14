@@ -1,0 +1,241 @@
+
+/* Styling the nav*/
+#intro-content #nav .navbar{
+	background: #1B242F;
+	border-bottom: 3px solid #04C2C9;
+
+
+}
+.navbar-nav {
+	margin-left:70px;
+}
+.navbar-nav li{
+	margin-right:30px;
+}
+.nav-item a:link,.nav-item a:visited {
+	color:#fff;
+	font-family:'PT Sans';
+	
+}
+.nav-item a:active ,.nav-item a:hover,.active{
+	color:#FB1F79;
+	transition-delay: 0.2s;
+}
+.fixed-top{
+	margin-bottom:30px;
+}
+
+/*Ending the nav*/
+/*home*/
+
+#home{
+background: #252934;
+	margin:0;
+	width:100%;
+	height:700px;
+	padding:50px;
+
+}
+#home .intro-badge{
+	
+	margin:100px 50px;
+	padding:40px 40px;
+}
+#home .intro-badge p{
+	font-family: 'PT Serif';
+	color:#fff;
+	font-size:40px;
+	padding:;
+	text-align: center;
+}
+.name {
+	color:#FB1F79;
+}
+.view-my-work-btn{
+	margin-top:10px;
+	margin-left:45%;
+
+}
+#home .intro-badge a:link ,#home .intro-badge a:visited{
+	background:transparent;
+	border:2px solid #ffffff;
+	padding:8px 13px;
+	color:#fff;
+	font-size:23px;
+
+}
+#home .intro-badge a:active,#home .intro-badge a:hover{
+	border:2px solid #04C2C9 ;
+	
+	background-color: #04C2C9;
+	text-decoration: none;
+	transition-delay: 0.2s;
+
+}
+#home .intro-badge a #arrow{
+	color:#FB1F79;
+	margin:0px 4px;
+}
+
+/*end home */
+/*about*/
+#about{
+background: #fff;
+	margin:0;
+	width:100%;
+	height:600px;
+	padding:50px;
+
+}
+
+/*end about */
+/*projects*/
+#portfolio{
+background: #F5F5F5;
+	margin:0;
+	width:100%;
+	height:600px;
+	padding:50px;
+
+}
+
+/*end projects */
+/*Blog */
+#blog{
+background: #FFFFFF;
+	margin:0;
+	width:100%;
+	height:600px;
+	padding:50px;
+
+}
+	
+/*end block */
+/*contact*/
+
+#contact {
+	background: #252934;
+	margin:0;
+	width:100%;
+	height:600px;
+	padding:50px;
+}
+#contact-content{
+	margin:10px 30%;
+
+}
+#contact-content h2{
+	color:#fff;
+	text-decoration: underline;;
+	text-align: center;
+	font-family: 'Ubuntu';
+	font-size:2.5em;
+	font-weight: bold;
+}
+#contact-content p{
+	color:#04C2C9;
+	font-size:16px;
+	text-align:center;
+	padding:8px 0px;
+
+}
+#contact-content form {
+	margin:5px;
+	padding:20px 8px;
+}
+#contact-content form input,#contact-content form textarea{
+	background: #1E242C;
+	color:#fff;
+	font-family: 'Jose Sans';
+	width:100%;
+	padding:13px;
+	border:0;
+	margin:2px 0;
+	font-size:18px;
+}
+#contact-content form textarea{
+	height:120px;
+}
+#contact-content form input[type="submit"]{
+	float:right;
+	border:1px solid #fff;
+	width:auto;
+	font-size:23px;
+	padding:4px 17px;
+}
+#contact-content form input[type="submit"]:hover{
+	background: #04C2C9;
+	transition-delay: 0.1s;
+	border-color: #04C2C9;
+}
+
+/*end contact */
+/* footer */
+#bottom{
+	background:#1B242F;
+	padding:28px 0px;
+}
+#footer{
+	margin:20px 30%;
+
+}
+#footer #social {
+	margin:6px 30%;
+}
+#footer #social .icons {
+	padding:16px 20px;
+	font-size:23px;
+	background: #000;
+	opacity:.7;
+	color:#fff;
+	border-radius: 50%;
+}
+#footer #social a:hover{
+	background: #04C2C9;
+	transition-delay: 0.1s;
+	animation-name: bounce;
+}
+
+#footer footer p{
+	font-family:"Ubuntu";
+	text-align:center;
+	font-size:20px;
+	color:#fff;
+	padding:23px;
+	opacity: .8;
+}
+
+/* endfooter*/
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
